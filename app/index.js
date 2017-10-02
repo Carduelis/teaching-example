@@ -1,26 +1,32 @@
 import ajax from './fake_libs/ajax';
+import url from './url';
 import './styles/style.less';
-import Trianglify from 'trianglify'
+import Trianglify from 'trianglify';
 const rootElement = document.getElementById('root');
-// rootElement.innerHTML = 'hello world!';
 var pattern = Trianglify({
-    width: window.innerWidth,
-    height: window.innerHeight
+	width: window.innerWidth,
+	height: window.innerHeight
 });
 rootElement.appendChild(pattern.canvas());
+console.log('start timeout');
+setTimeout(() =>{
+	ajax({
+		url,
+		jsonp: true,
+		debug: false,
+		success: (...rest) => {
+			console.log(...rest);
+		},
+		error: (...rest) => {
+			console.error(...rest);
+		}
+	}).then(
+		response => console.log(response),
+		error => console.error(error)
+	);
+	console.log('end');
+}, 1000);
 
-ajax({
-	debug: false,
-	success: (...rest) => {
-		console.log(...rest);
-	},
-	error: (...rest) => {
-		console.error(...rest);
-	}
-}).then(
-	response => console.log(response),
-	error => console.error(error)
-);
 class Rabbit {
   constructor(name) {
     this.name = name;
