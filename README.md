@@ -16,3 +16,6 @@ git clone "https://github.com/Carduelis/teaching-example.git";
 npm install
 npm run web-dev
 ```
+
+# Instagram pseudo api
+https://ozon-st.cdn.ngenix.net/js/instagram_data.json
