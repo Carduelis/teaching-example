@@ -8,9 +8,11 @@
 
 # консольные команды для запуска
 
+```
 cd c:/
 mkdir myFolder
 cd myFolder
 git clone "https://github.com/Carduelis/teaching-example.git";
 npm install
 npm run web-dev
+```
