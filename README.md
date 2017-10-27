@@ -21,6 +21,7 @@ npm run web-dev
 https://ozon-st.cdn.ngenix.net/js/instagram_data.json
 
 ## Почитать
+[Статья](https://m.habrahabr.ru/company/mailru/blog/340922/) о переходе от чистого JavaScript к пакетному менеджеру npm и сборщикам на nodejs
 [Хороший портал по js на русском](https://learn.javascript.ru/)
 Книга Eloquent Javascript [eng](http://eloquentjavascript.net/) [по-русски](https://karmazzin.gitbooks.io/eloquentjavascript_ru/content/)
 Вообще [в целом](https://habrahabr.ru/post/165649/) о языке, его плюсах, минусах, нюансах. Статья очень старая (2013!), и много чего уже поменялось, а много какие проблемы решились.
