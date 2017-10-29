@@ -36,4 +36,4 @@ https://ozon-st.cdn.ngenix.net/js/instagram_data.json
 [Хорошие курсы](https://www.udemy.com/courses/search/?q=stephen%20grider&src=sac&kw=stephen) по js от Stephen Grider. И про React, и [FullStack](https://www.udemy.com/node-with-react-fullstack-web-development/), и просто курсы о [самом языке](https://www.udemy.com/javascript-es6-tutorial/).
 
 ## Лабораторная работа
-... скоро появится
+[Цели и задачи на гуглодоке](https://docs.google.com/document/d/1m_Z1Nq_50xOGgDgHgLKP3v1xZ8X_2s_jL45IMoTAdqg/edit)
